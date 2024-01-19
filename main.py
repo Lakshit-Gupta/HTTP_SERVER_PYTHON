@@ -1,6 +1,6 @@
 from http.server import HTTPServer ,BaseHTTPRequestHandler ,SimpleHTTPRequestHandler,ThreadingHTTPServer
 import time
-HOST = "192.168.29.147"#Your IP address "INTERNAL" not PUblic
+HOST = "192.168.29.147"#Your IP address "INTERNAL" not Public
 PORT = 1024 #"Your Desired Port "
 class HTTP(BaseHTTPRequestHandler):
 
